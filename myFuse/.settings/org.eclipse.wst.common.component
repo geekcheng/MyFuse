@@ -2,6 +2,7 @@
     <wb-module deploy-name="myFuse">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resources"/>
         <property name="context-root" value="myFuse"/>
         <property name="java-output-path" value="/myFuse/build/classes"/>
     </wb-module>
